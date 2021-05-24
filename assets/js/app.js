@@ -54,7 +54,7 @@ const valor = valorCarta(pedirCarta());
 console.log( valor );
 
 
-document.querySelector('.titulo-index').innerText = 'Juan';
+document.querySelector('.titulo-index').innerText = 'Prueba';
 
 
 
