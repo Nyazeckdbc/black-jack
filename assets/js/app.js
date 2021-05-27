@@ -1,5 +1,5 @@
 
-( () => {
+const modulo = ( () => {
 
 
     let deck = [];
@@ -153,5 +153,9 @@
         btnDetener.disabled = false;
 
     });
+
+    return {
+        nuevoJuego: iniciarJuego
+    };
 
 })();
